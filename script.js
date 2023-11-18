@@ -12,15 +12,15 @@ startTimerBtn.addEventListener('click', () => {
         createTimer(totalMilliseconds);
     }
     let secondsInput = document.getElementById("seconds");
-    secondsInput.value = parseInt("0");
+    secondsInput.value = '';
     // secondsInput.setAttribute ("placeholder", "Seconds");
 
 
     let minutesInput = document.getElementById("minutes");
-    minutesInput.value = parseInt("0");
+    minutesInput.value = '';
 
     let hoursInput = document.getElementById("hours");
-    hoursInput.value = parseInt("0");
+    hoursInput.value = '';
 });
 
 function createTimer(duration) {

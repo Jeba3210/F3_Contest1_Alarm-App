@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="alarm-clock.png ">
+</head>
+<body>
+    <section>
+        <div class="timer-input-section">
+            <div class="div1"><h1>Multiple Timers App</h1></div>
+            <div class="div2">
+                <div class="div2_div1"><p style="color: #FFFFFF;font-size: 30px ;">Set Time :</p></div>
+                <div class="div2_div2">
+                    <label for="hours" style="color: white; font-size: 25px;"></label>
+                    <input type="number" id="hours" placeholder="Hours">
+        
+                    <label for="minutes" style="color: white; font-size: 25px;">:</label>
+                    <input type="number" id="minutes" placeholder="Minutes">
+                    
+                    <label for="seconds" style="color: white; font-size: 25px;">:</label>
+                    <input type="number" id="seconds" placeholder="Seconds">
+                    
+                </div>
+                <div><button id="start-timer">Set</button></div>
+            </div>
+                <div class="active-timers-display" id="timers-container">
+       
+                </div>
+            <!-- <div class="div3">
+                <p style="color: #FFFFFF;font-size: 24px;">Current Timers</p>
+            </div>
+            <div class="div4"><p style="color: #FFFFFF;font-size: 24px;">You have no timers currently!</p></div> -->
+      
+    </section>
+
+    <script src="script.js"></script>
+    <audio src="alarm_audio.wav" id="audio"></audio>
+   
+</body>
+</html>
